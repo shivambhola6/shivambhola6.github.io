@@ -1,4 +1,4 @@
-#search1{
+/* #search1{
     height: 30px;
     width: 30%;
     border-radius: 10px;
@@ -8,7 +8,7 @@
     border-style: none;
     font-family: 'Itim';
     font-size: 14px;
-}
+} */
 
 .box1{
     margin: 15px 10px;
@@ -28,44 +28,53 @@
 .images{
     font-family: 'Itim';
     font-size: 50px;
-    padding-left: 50px;
+    padding-left: 45px;
+}
+
+.im{
+    padding-left: 100px;
+    padding-bottom: 30px;
 }
 
 .weather{
-    border: 4px solid #c0baba;
-    border-radius: 10px;
+    border-radius: 30px;
     width: 61%;
     margin-left: 15px;
-    background-color: #c0baba;
 }
 
 .para1{
-    padding-left: 45px;
+    padding-left: 50px;
     font-family: 'Itim';
-    font-size: 26px;
+    font-size: 30px;
     /* padding-bottom: 10px; */
 }
+
+.temp{
+    padding-left: 25px;
+    font-size: 45px;
+}
+
+
 
 .para2{
     padding-left: 5px;
     font-family: 'Itim';
-    font-size: 14px;
+    font-size: 15px;
     /* padding-bottom: 10px; */
 }
 
-body{
-    background-color: #d1d1d1;
+.gradient{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(215, 214, 254), rgb(230, 242, 255));
+    background-repeat: no-repeat;
 }
 
 .column {
     float: left;
     width: 47%;
     padding: 10px;
-    /* height: 300px; */
-    /* Should be removed. Only for demonstration */
 }
 
-/* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
@@ -74,22 +83,123 @@ body{
 
 .tb1{
     padding: 10px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid #f3f3de;
+    border-top: 1px solid rgba(212, 212, 212, 0);
+    border-bottom: 1px solid rgba(212, 212, 212, 0);
+    border-radius: 30px;
+    background-image: linear-gradient(to right, white, #e6e6d4, #f3f3de);
+    font-family: 'Itim';
 }
 
 .th1{
     padding: 12px;
+    font-family: 'Itim';
 }
 
 .th3{
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+.th4{
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 0px;
     padding-right: 12px;
 }
 
-#thone{
+#thtwo{
     padding-top: 1px;
     padding-bottom: 12px;
     padding-left: 12px;
     padding-right: 12px;
+}
+#thone{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#weather1{
+    background-image: linear-gradient(to right, white, #dce9ff, #99b8fa);
+    border-bottom: 1px solid #fafa9900;
+    border-right: 1px solid #99b8fa;
+    border-top: 1px solid #fafa9900;
+    border-left: 1px solid #ffffff;
+}
+
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 7px 7px;
+    font-family: 'Itim';
+}
+.navbar li a{
+    color: rgb(0, 0, 0);
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: rgb(0, 166, 255);
+}
+.search{
+    float: right;
+    padding: 9px 20px;
+    font-family: 'Itim';
+}
+#search{
+    border-radius: 10px;
+    border-style: none;
+    /* border: 3px solid #c9886a; */
+    font-family: 'Itim';
+}
+.navbar input{
+    padding: 2px 10px;
+}
+
+.hr{
+    width: 96%;
+}
+
+#weather4{
+    padding: 10px;
+    border: 1px solid #ffffff00;
+    border-radius: 30px;
+    /* background-image: linear-gradient(to right,  #dcdbff, #c2d9ff, #dcdbff); */
+    /* background-color: #c2d9ff; */
+    background-image: linear-gradient(to right, white, #e6e6d4, #f3f3de);
+    width: 400px;
+}
+
+.map{
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+}
+
+.radar{
+    padding-left: 10px;
+    font-family: 'Itim';
+    font-size: 14px;
+    /* padding-bottom: 10px; */
+}
+
+#we1{
+    border-radius: 20px;
+    border: 2px ridge rgb(0, 0, 0);
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-family: 'Itim';
+}
+
+.labe1{
+    font-size: 16px;
 }
